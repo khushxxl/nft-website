@@ -13,7 +13,7 @@ const Categories = () => {
           return (
             <div className="border-[2.5px] rounded-xl mt-5 border-blue-500 pr-6 pb-2 pl-6 pt-5 flex flex-col items-center justify-center text-center h-[160px]">
               <img
-                src="https://cdn-icons.flaticon.com/png/512/2272/premium/2272815.png?token=exp=1644817718~hmac=fb9b2bb35c98c48f4344be8bf814ff31"
+                src={require('../images/wallet.png')}
                 alt=""
                 className="h-20"
               />

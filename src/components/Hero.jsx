@@ -42,7 +42,7 @@ const Hero = () => {
         <div class="max-w-sm rounded-xl flex items-center justify-center overflow-hidden bg-gradient-to-b from-cyan-500 to-blue-500 h-[70vh] ">
           <img
             class="w-full"
-            src="https://cdn-icons.flaticon.com/png/512/4123/premium/4123821.png?token=exp=1644767252~hmac=2db8979859c33ea185d92ea386c9a6e3"
+            src={require('../images/eth.png')}
             alt="NFT Card"
           />
         </div>
